@@ -4,11 +4,11 @@
 </head>
 
 <body>
-
+  <div id="sound" style="width:200px;height:200px;background:#ddd;padding:20px">Make a sound</div>
 <script>
 
   
-  document.addEventListener('mousedown', () => {
+  document.getElementById("sound").addEventListener('mousedown', () => {
   
     var audio = new Audio("NFF-rolling-b.wav");
     audio.play();
